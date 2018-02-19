@@ -7,8 +7,8 @@ end
 
 def current_player(board)
   if turn_count(board).to_i == turn_count(board).even?
-    current_player = "X"
-  else
     current_player = "O"
+  else
+    current_player = "X"
   end
 end
