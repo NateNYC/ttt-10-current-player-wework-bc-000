@@ -10,7 +10,7 @@ end
 def current_player(board)
   if turn_count(board).to_i % 2
     current_player = "O"
-  elsif
+  else
     current_player = "X"
   end
 end
