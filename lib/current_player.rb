@@ -1,5 +1,8 @@
 def turn_count(board)
- board.count{|token| token == "X" || token == "O"}
+ count = 0
+ if board.count{|token| token == "X" || token == "O"}
+   count += 1 
+ end
 end
 
 
