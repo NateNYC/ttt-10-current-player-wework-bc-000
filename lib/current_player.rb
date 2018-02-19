@@ -1,7 +1,8 @@
 def turn_count(board)
-  
-  board.count{|token| token == "X" || token == "O"}
-
+  while counter > 9
+   board.count{|token| token == "X" || token == "O"}
+   counter += 1 
+  end
 end
 
 
